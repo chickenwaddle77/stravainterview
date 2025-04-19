@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         label.text = "Hello UIKit"
         label.textAlignment = .center
         label.frame = CGRect(x: 50, y: 100, width: 300, height: 50)
+        label.font = UIFont.systemFont(ofSize: 23, weight: .bold)
         view.addSubview(label)
         
         result.text = "😟"
